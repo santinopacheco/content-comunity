@@ -28,6 +28,9 @@ body{
 .letra{
     color: white;
 }
+.letra:hover{
+    color: #bbb;
+}
 section{
     margin-top: 0;
     margin: 10px;
