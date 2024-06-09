@@ -17,10 +17,7 @@ body{
     margin: 20px;
 }
 .logo-content-comunity{
-    width: 50px;
-}
-.logo-nombre-content-comunity{
-    width: 171px;
+    width: 250px;
 }
 .colornav{
     background-color: #212529 !important;
@@ -174,5 +171,4 @@ video{
     border-radius: 20px;
     margin: 10px;
 }
-
 /*fin de videos*/
