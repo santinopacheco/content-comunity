@@ -17,16 +17,19 @@ body{
     margin: 20px;
 }
 .logo-content-comunity{
-    width: 250px;
+    width: 180px;
 }
 .colornav{
     background-color: #0f1114 !important;
 }
 .letra{
     color: white;
+    margin-left: 20px;
+    transition: font-size 0.3s;
 }
 .letra:hover{
     color: #bbb;
+    font-size: 25px;
 }
 section{
     margin-top: 0;
