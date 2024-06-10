@@ -16,11 +16,21 @@ body{
 .texto{
     margin: 20px;
 }
+/*navbar*/
+nav{
+    width: 100%;
+    background-color: #333;
+}
 .logo-content-comunity{
     width: 180px;
 }
 .colornav{
+    width: 100%;
     background-color: #0f1114 !important;
+    width: 100%;
+    background-color: #333;
+    width: 100%;
+    background-color: #333;
 }
 .letra{
     color: white;
@@ -31,13 +41,11 @@ body{
     color: #bbb;
     font-size: 25px;
 }
+
+/*termina navbar*/
 section{
     margin-top: 0;
     margin: 10px;
-}
-.icon{
-    color: #adaf9a88;
-    font-size: 20px;
 }
 footer{
     color: #adaf9a88;
@@ -49,6 +57,10 @@ footer{
     height: 100%;
 }
 /*todo el footer*/
+.icon{
+    color: #adaf9a88;
+    font-size: 20px;
+}
 .container{
     width: 1140px;
     margin: auto;
@@ -123,6 +135,9 @@ a:hover{
     font-size: 16px;
     padding: 7px;
 }
+.footer-del-footer{
+    bottom: 0;
+}
 /*termina el footer*/
 
 
@@ -131,8 +146,10 @@ section{
     display: flex;
     width: 600px;
     height: 430px;
-    margin: 30px;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 section img{
     width: 0px;
@@ -160,8 +177,10 @@ section img:hover{
     display: flex;
     width: 900px;
     height: 645px;
-    margin: 30px;
-    margin-left: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: 10px #212529 solid;
     border-radius: 20px;
     background-color: #212529;
