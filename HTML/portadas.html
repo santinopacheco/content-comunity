@@ -8,28 +8,16 @@
     <link rel="stylesheet" href="/CSS/styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary colornav">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/HTML/index.html"><img class="logo-content-comunity" src="/IMG/MI_LOGO_PNG.png" alt="logo de content comunity"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="navbar-brand letra" href="/HTML/portadas.html">Portadas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-brand letra" href="/HTML/videos.html">Videos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-brand letra" href="/HTML/asesoramiento.html">asesoramiento</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
+    <header id="Header">
+        <img src="/IMG/MI_LOGO_PNG.png" alt="" class="logo">
+
+        <!--Menu header-->
+        <ul class="main-menu">
+            <li class="cta"><a href="/HTML/index.html">Inicio</a></li>
+            <li class="menu-item"><a href="/HTML/portadas.html">Portadas</a></li>
+            <li class="menu-item"><a href="/HTML/videos.html">Videos</a></li>
+            <li class="menu-item"><a href="/HTML/asesoramiento.html">Asespramiento</a></li>
+        </ul>
     </header>
     <main>
         <section>
@@ -37,7 +25,7 @@
             <img src="/portadas/2.jpg" alt="">
             <img class="imagen-borde-derecha" src="/portadas/3 posta.jpg" alt="">
         </section>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod culpa expedita architecto delectus numquam est atque eum, ad ducimus totam consequatur fugiat quis, accusantium exercitationem similique odio perspiciatis rem veritatis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum nisi nemo vero hic aperiam doloremque fugit labore quia, blanditiis dicta atque officiis? Libero, ipsum natus doloribus cumque adipisci assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatibus culpa tempora deleniti molestiae maxime facere nostrum autem eos dolorem recusandae saepe, asperiores excepturi aspernatur distinctio dolores veniam repellat! Eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, cum quidem maxime labore voluptates minus eveniet cumque ab molestiae saepe sed explicabo in omnis ea veritatis nobis velit perspiciatis qui.
     </main>
     <footer>
         <section class="container">
@@ -60,12 +48,15 @@
             <article class="footer-content">
                 <div>
                     <h3>Contactate con nosotros</h3>
-                    <li><i class="fa fa-whatsapp"> +54 911 5466-6650</i></li>
-                    <li><i class="fa fa-email"> lucianonicolascamino@gmail.com</i></li>
+                    <ul>
+                        <li><i class="fa fa-whatsapp"> +54 911 5466-6650</i></li>
+                        <li><i class="fa fa-"> lucianonicolascamino@gmail.com</i></li>
+                    </ul>
                 </div>
             </article>
         </section>
     </footer>
+    <script src="/code.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
