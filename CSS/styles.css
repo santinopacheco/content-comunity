@@ -253,8 +253,6 @@ section img:hover{
 }
 .videos video:hover{
     width: 100px;
-    opacity: 1;
-    filter: contrast(120%);
 }
 video{
     border-radius: 20px;
